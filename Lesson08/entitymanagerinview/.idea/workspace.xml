@@ -6,7 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9387710-f8b5-4e0d-a1c7-0b5bb02a9593" name="Default Changelist" comment="" />
+    <list default="true" id="c9387710-f8b5-4e0d-a1c7-0b5bb02a9593" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../OptimisticLockVersion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OptimisticLockVersion/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OptimisticLockVersion/src/main/java/edu/mum/cs/TestUpdateStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OptimisticLockVersion/src/main/java/edu/mum/cs/TestUpdateStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OptimisticLockVersion/target/classes/edu/mum/cs/TestUpdateStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OptimisticLockVersion/target/classes/edu/mum/cs/TestUpdateStudent.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -114,6 +118,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../OptimisticLockVersion" />
@@ -221,12 +226,12 @@
       <updated>1562092593215</updated>
       <workItem from="1562092597024" duration="779000" />
       <workItem from="1562094302535" duration="1145000" />
-      <workItem from="1562095533322" duration="272000" />
+      <workItem from="1562095533322" duration="641000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2196000" />
+    <option name="totallyTimeSpent" value="2565000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
