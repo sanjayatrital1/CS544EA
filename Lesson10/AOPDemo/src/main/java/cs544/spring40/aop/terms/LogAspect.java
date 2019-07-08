@@ -17,22 +17,22 @@ public class LogAspect {
 	//any method name
 	//any parameters
 	@Before("execution(* *(..))")
-	public void logBefore(JoinPoint joinpoint) {
-		logger.warn("About to exec: " + joinpoint.getSignature().getName());
+	public void logzBefore(JoinPoint joinpoint) {
+		logger.warn("logBefore: " + joinpoint.getSignature().getName());
 	}
 
 	@After("execution(* *(..))")
 	public void logAfter(JoinPoint joinpoint) {
-		logger.warn("Juset execed: " + joinpoint.getSignature().getName());
+		logger.warn("logAfter: " + joinpoint.getSignature().getName());
 	}
 
 	@Before("execution(* *(..))")
 	public void logTargetBefore(JoinPoint joinpoint) {
-		logger.warn("About to exec a method on: " + joinpoint.getTarget());
+		logger.warn("logTargetBefore: " + joinpoint.getTarget());
 	}
 	@After("execution(* *(..))")
 	public void logTargetAfter(JoinPoint joinpoint) {
-		logger.warn("Just execed a method on: " + joinpoint.getTarget());
+		logger.warn("logTargetAfter: " + joinpoint.getTarget());
 	}
 
 }
