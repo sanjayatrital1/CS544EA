@@ -34,6 +34,7 @@ public class CarController {
         return "addCar";
     }
 
+    //uses redirect
     @RequestMapping(value = "/addCar", method = RequestMethod.POST)
     public String add(Car car) {
         carService.add(car);
